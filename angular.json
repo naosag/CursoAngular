@@ -24,10 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"         
+              "src/styles.css"
             ],
-            "scripts": [              
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -88,11 +87,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"                          
+              "src/styles.css"
             ],
-            "scripts": [
-              
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -123,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "miscelaneos"
+  "defaultProject": "miscelaneos",
+  "cli": {
+    "analytics": false
+  }
 }

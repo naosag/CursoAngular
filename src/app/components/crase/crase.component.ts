@@ -2,23 +2,20 @@ import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-crase',
-  templateUrl: './crase.component.html',  
+  templateUrl: './crase.component.html',
 })
 export class CraseComponent {
 
   alerta: string = "alert-danger";
 
-  propiedades: Object ;
+  propiedades = {
+    peligro: false
+  };
   loading: boolean = false;
 
 
-  constructor() {
-    this.propiedades  = {
-      peligro :false
-    };
-  
-   }
-  
+  constructor() {}
+
 
   ejecutar(){
     this.loading= true;
